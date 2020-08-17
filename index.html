@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ankit Suthar</title>
+</head>
+
+<body>
+
+  <section class="container">
+
+    <div class="row">
+
+      <!-- Left Pane -->
+      <!-- <div id="left-bar" class="d-none d-md-block bg-secondary col-md-3"> -->
+      <section id="left-bar" class="d-md-block bg-secondary col-md-3">
+
+        <button onclick='sidebar_close()' type="button" class="close text-white" aria-label="Close" id="close_side">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="my-5">
+          <img src="./img/myprofile.jpeg" alt="" class="d-block m-auto rounded-circle"
+            style="width:150px; height:150px;">
+        </div>
+
+        <div class="text-center">
+          <h3>Ankit Suthar</h3>
+          <p class="text-dark">Software Developer</p>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div>
+            <a href="https://www.linkedin.com/in/ankitsuthar" class="text-white mr-4">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://www.github.com/ankit-suthar" class="text-white">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-dark justify-content-center mt-5">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#career-summary" class="nav-link"><span class="fal fa-file-alt text-white mr-2"></span>Career
+                Summary</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#experience" class="nav-link"><span
+                  class="fas fa-briefcase text-white mr-2"></span>Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#skill" class="nav-link"><span class="fa fa-cogs text-white mr-2"></span>Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#education" class="nav-link"><span
+                  class="fa fa-graduation-cap text-white mr-2"></span>Education</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#certifications" class="nav-link"><span
+                  class="fa fa-certificate text-white mr-2"></span>Certifications</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#extra-curricular" class="nav-link"><span class="fas fa-guitar text-white mr-2"></span>Extra
+                Curricular</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" id="main-nav" class="nav-link"><span
+                  class="fa fa-address-book text-white mr-2"></span>Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- Right Pane -->
+      <section id="right-bar" class="d-block col-md-9">
+
+        <button onclick='sidebar_open()' class="navbar-toggler fixed-top m-2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Career Summary -->
+        <section id="career-summary">
+          <div class="card bg-light mt-3" style="border:none;">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold"
+                style="font-family: Times New Roman, Times, serif; letter-spacing: 1px;"><span
+                  class="fal fa-file-alt text-dark mr-2"></span>CAREER SUMMARY
+              </h5>
+              <p class="card-text mt-4" style="letter-spacing: 1px;">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, vitae!
+              </p>
+              <p class="card-text" style="letter-spacing: 1px;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi atque praesentium cum sit vero modi
+                harum dicta, qui asperiores perferendis.
+              </p>
+              <p class="card-text" style="letter-spacing: 1px;">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi atque praesentium cum sit vero modi
+                harum dicta, qui asperiores perferendis.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience">
+          <div class="card" style="border:none;">
+            <div class="card-body">
+              <p class="text-muted mb-3" style="letter-spacing: 2px;"><small>EXPERIENCE</small></p>
+              <h5 class="card-title font-weight-bold"
+                style="font-family: Times New Roman, Times, serif; letter-spacing: 1px;"><span
+                  class="fas fa-briefcase text-dark mr-2 mb-3"></span>WORK EXPERIENCE</h5>
+
+              <div class="d-flex">
+                <span style="position: absolute;">
+                  <i class="fal fa-pencil-alt text-white fa-2x p-2"
+                    style="border-radius:50%; border: 4px solid #ced4da; background-color: #dc3545;"></i>
+                </span>
+                <div class="mh-100 ml-4" style="width: 5px; background-color: #ced4da;"></div>
+
+                <div class="col card ml-5" style="background-color:#e9ecef; border:none; padding-right:-10px;">
+                  <div class="card-body">
+                    <h5 class="card-title">WalmartLabs IDC <span class="text-muted ml-3"
+                        style="font-size: medium;">July-2019
+                        - Present</span></h5>
+                    <h6 class="card-subtitle text-muted mb-2">Software Engineer III</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                      provident?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                      tempora?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, esse!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex mt-3">
+                <span style="position: absolute;">
+                  <i class="fal fa-pencil-alt text-white fa-2x p-2"
+                    style="border-radius:50%; border: 4px solid #ced4da; background-color: #007bff;"></i>
+                </span>
+                <div class="mh-100 ml-4" style="width: 5px; background-color: #ced4da;"></div>
+
+                <div class="col card ml-5" style="background-color:#e9ecef; border:none;">
+                  <div class="card-body">
+                    <h5 class="card-title">Informatica Business Solutions<span class="text-muted ml-3"
+                        style="font-size: medium;">May-2018 - July-2019</span></h5>
+                    <h6 class="card-subtitle text-muted mb-2">Software Engineer</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                      provident?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                      tempora?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, esse!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex mt-3">
+                <span style="position: absolute;">
+                  <i class="fal fa-pencil-alt text-white fa-2x p-2"
+                    style="border-radius:50%; border: 4px solid #ced4da; background-color: #ffc107;"></i>
+                </span>
+                <div class="mh-100 ml-4" style="width: 5px; background-color: #ced4da;"></div>
+
+                <div class="col card ml-5" style="background-color:#e9ecef; border:none;">
+                  <div class="card-body">
+                    <h5 class="card-title">Oracle Financial Services Software<span class="text-muted ml-3"
+                        style="font-size: medium;">March-2016 - May-2018</span></h5>
+                    <h6 class="card-subtitle text-muted mb-2">Associate Consultant</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+                      provident?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                      tempora?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, esse!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skill Section -->
+        <section id="skill">
+          <div class="card mt-3" style="border:none">
+            <div class="card-body">
+              <p class="text-muted mb-3" style="letter-spacing: 2px;"><small>MY SPECIALTY</small></p>
+              <h5 class="card-title font-weight-bold"
+                style="font-family: Times New Roman, Times, serif; letter-spacing: 1px;"><span
+                  class="fa fa-cogs text-dark mr-2"></span>SKILLS</h5>
+
+              <div class="row mt-4">
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/java.jpg" alt="" style="height:100px; width:100px;">
+                    <h5 class="font-weight-bold mt-3">Java</h5>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/docker.jpeg" alt="" style="height:100px; width:100px;">
+                    <h5 class="font-weight-bold mt-3">Docker</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/python.jpg" alt="" style="height:100px; width:100px;">
+                    <h5 class="font-weight-bold mt-3">Python</h5>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/cassandra.jpeg" alt="" style="height:100px; width:100px;">
+                    <h5 class="font-weight-bold mt-3">Cassandra</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/mongodb.jpg" alt="" style="height:100px; width:100px;">
+                    <h5 class="font-weight-bold mt-3">MongoDB</h5>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/kubernetes.jpeg" alt="" style="height:90px; width:90px;">
+                    <h5 class="font-weight-bold mt-3">Kubernetes</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/nodejs.jpg" alt="" style="height:100px; width:100px;">
+                    <h5 class="font-weight-bold mt-3">NodeJS</h5>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <img src="./img/kafka.jpeg" alt="" style="height:90px; width:90px;">
+                    <h5 class="font-weight-bold mt-3">Kafka</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Education -->
+        <section id="education">
+          <div class="card mt-3" style="border:none;">
+            <div class="card-body">
+              <p class="text-muted mb-3" style="letter-spacing: 2px;"><small>EDUCATION</small></p>
+              <h5 class="card-title font-weight-bold"
+                style="font-family: Times New Roman, Times, serif; letter-spacing: 1px;"><span
+                  class="fa fa-graduation-cap text-dark mr-2"></span>EDUCATION</h5>
+
+              <div class="card mt-4" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                <div class="card-header" id="headingOne">
+                  <div class="d-flex mb-0">
+                    <p>M.Tech, Indian Institute of Technolog (BHU), Varanasi</p>
+                    <p class="fas fa-plus ml-auto"></p>
+                  </div>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven' t heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-3" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                aria-controls="collapseTwo">
+                <div class="card-header" id="headingTwo">
+                  <div class="d-flex mb-0">
+                    <p>B.E, Hemchandracharya North Gujarat University, Patan</p>
+                    <p class="fas fa-plus ml-auto"></p>
+                  </div>
+                </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                    assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications">
+          <div class="card" style="border:none;">
+            <div class="card-body">
+              <p class="text-muted mb-3" style="letter-spacing: 2px;"><small>CERTIFICATIONS</small></p>
+              <h5 class="card-title font-weight-bold"
+                style="font-family: Times New Roman, Times, serif; letter-spacing: 1px;"><span
+                  class="fas fa-certificate text-dark mr-2"></span>CERTIFICATIONS</h5>
+
+              <div class="row">
+                <div class="col">
+                  <div class="media mt-5">
+                    <i class="fal fa-award fa-2x text-danger" style="padding-left:0.9rem;padding-top:0.9rem"></i>
+                    <div class="media-body">
+                      <p class="text-info ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                        <a href="https://t.ly/9upp" target="_blank">Cassandra <span><i
+                              class="fal fa-arrow-alt-down"></i></span></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="media mt-5">
+                    <i class="fal fa-award fa-2x text-primary" style="padding-left:0.9rem;padding-top:0.9rem"></i>
+                    <div class="media-body">
+                      <p class="text-info ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                        <a href="https://t.ly/UJPF" target="_blank">MongoDB <span><i
+                              class="fal fa-arrow-alt-down"></i></span></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="media mt-5">
+                    <i class="fal fa-award fa-2x text-warning" style="padding-left:0.9rem;padding-top:0.9rem"></i>
+                    <div class="media-body">
+                      <p class="text-info ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                        <a href="https://t.ly/YEYI" target="_blank">NodeJS <span><i
+                              class="fal fa-arrow-alt-down"></i></span></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="media mt-5">
+                    <i class="fal fa-award fa-2x text-dark" style="padding-left:0.9rem;padding-top:0.9rem"></i>
+                    <div class="media-body">
+                      <p class="text-info ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                        <a href="https://t.ly/hgB7" target="_blank">Docker & Kubernetes <span><i
+                              class="fal fa-arrow-alt-down"></i></span></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="media mt-5">
+                    <i class="fal fa-award fa-2x text-info" style="padding-left:0.9rem;padding-top:0.9rem"></i>
+                    <div class="media-body">
+                      <p class="text-info ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                        <a href="" target="_blank">Kafka<span><i class="fal fa-arrow-alt-down ml-1"></i></span></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="media mt-5">
+                    <i class="fal fa-award fa-2x text-success" style="padding-left:0.9rem;padding-top:0.9rem"></i>
+                    <div class="media-body">
+                      <p class="text-info ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                        <a href="" target="_blank">Kafka Streams<span><i
+                              class="fal fa-arrow-alt-down ml-1"></i></span></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <div class="card" style="border:none;">
+            <div class="card-body">
+
+              <p class="text-muted mb-3" style="letter-spacing: 2px;"><small>GET IN TOUCH</small></p>
+              <h5 class="card-title font-weight-bold"
+                style="font-family: Times New Roman, Times, serif; letter-spacing: 1px;"><span
+                  class="fa fa-address-book text-dark mr-2"></span>CONTACT</h5>
+
+              <div class="media mt-5">
+                <div class="circle">
+                  <i class="far fa-paper-plane fa-2x text-light" style="padding-left:0.8rem;padding-top:0.8rem"></i>
+                </div>
+
+                <div class="media-body">
+                  <p class="text-primary ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                    ankit.er88@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              <div class="media mt-5">
+                <div class="circle">
+                  <i class="fal fa-phone fa-2x text-light" style="padding-left:0.8rem;padding-top:0.8rem"></i>
+                </div>
+                <div class="media-body">
+                  <p class="text-primary ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">
+                    +91 887 470 7563
+                  </p>
+                </div>
+              </div>
+
+              <div class="media mt-5">
+                <div class="circle">
+                  <i class="fal fa-map-marker-alt fa-2x text-light" style="padding-left:1.15rem;padding-top:0.9rem"></i>
+                </div>
+                <div class="media-body">
+                  <p class="text-primary ml-3 mt-3 font-weight-light" style="letter-spacing: 2px;">Bengaluru
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get current year for the copyright
+    $('#year').text(new Date().getFullYear())
+
+    $(document).ready(function () {
+      $('.collapse')
+        .on('shown.bs.collapse', function () {
+          $(this)
+            .parent()
+            .find(".fa-plus")
+            .removeClass("fa-plus")
+            .addClass("fa-minus");
+        })
+        .on('hidden.bs.collapse', function () {
+          $(this)
+            .parent()
+            .find(".fa-minus")
+            .removeClass("fa-minus")
+            .addClass("fa-plus");
+        });
+    });
+
+    $(document).ready(function () {
+      $('.collapse')
+        .on('shown.bs.collapse', function () {
+          $(this)
+            .parent()
+            .find("#headingOne,#headingTwo")
+            .addClass("bg-primary");
+        })
+        .on('hidden.bs.collapse', function () {
+          $(this)
+            .parent()
+            .find("#headingOne,#headingTwo")
+            .removeClass("bg-primary")
+        });
+    });
+
+    function sidebar_open() {
+      document.getElementById("left-bar").style.display = "block";
+    }
+
+    function sidebar_close() {
+      document.getElementById("left-bar").style.display = "none";
+    }
+
+  </script>
+</body>
+
+</html>

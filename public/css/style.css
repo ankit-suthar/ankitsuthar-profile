@@ -64,7 +64,7 @@
 
 @media (max-width: 767px){
   #left-bar{
-    max-width:40%;
+    max-width:50%;
     position: absolute;
     z-index: 100;
     display:none;
